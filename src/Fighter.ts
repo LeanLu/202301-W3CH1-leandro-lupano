@@ -15,6 +15,6 @@ export class Fighter extends Character {
   }
 
   greeting() {
-    console.log(`Soy ${this.characterName}. Primero pego y luego pregunto`);
+    return `Soy ${this.characterName}. Primero pego y luego pregunto`;
   }
 }

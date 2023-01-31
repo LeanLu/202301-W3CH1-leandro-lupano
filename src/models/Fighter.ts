@@ -2,9 +2,9 @@ import { Character } from './Character';
 
 export class Fighter extends Character {
   constructor(
-    public characterName: string,
-    public family: string,
-    public age: number,
+    characterName: string,
+    family: string,
+    age: number,
 
     public weapon: string,
     public skill: number
@@ -15,6 +15,6 @@ export class Fighter extends Character {
   }
 
   greeting() {
-    return `Soy ${this.characterName}. Primero pego y luego pregunto`;
+    return `Primero pego y luego pregunto`;
   }
 }

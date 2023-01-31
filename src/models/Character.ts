@@ -7,11 +7,11 @@ export class Character {
     public family: string,
     public age: number
   ) {
-    (this.characterName = characterName),
-      (this.family = family),
-      (this.age = age),
-      (this.status = true),
-      (this.serie = 'Game of Thrones');
+    this.characterName = characterName;
+    this.family = family;
+    this.age = age;
+    this.status = true;
+    this.serie = 'Game of Thrones';
   }
 
   kill() {

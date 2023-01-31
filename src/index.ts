@@ -1,1 +1,1 @@
-// prueba
+import './style.scss';

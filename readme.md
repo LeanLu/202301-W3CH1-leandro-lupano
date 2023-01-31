@@ -34,24 +34,27 @@ Cuando se comunica dice: "Primero pego y luego pregunto"
 
 Personaje al que asesora (que puede ser rey, luchador, asesor o escudero)
 Cuando se comunica dice: "No sé por qué, pero creo que voy a morir pronto"
-Un escudero, además de la información que tiene por ser personaje, tiene la siguiente información:
+
+### Un escudero, además de la información que tiene por ser personaje, tiene la siguiente información:
 
 Personaje al que sirve (que sólo puede ser luchador)
 Grado de servilismo (un valor entre 0 y 10)
 Cuando se comunica dice: "Soy un loser"
-Conjunto de datos
+
+## Conjunto de datos
+
 Crea los siguientes archivos JS y haz que funcionen como módulos mediante import y export:
 
 Personaje.js, Rey.js, Luchador.js, Asesor.js, Escudero.js (mete dentro cada clase)
-personajes.js (crea dentro un array con los personajes
+personajes.js (crea dentro un array con los personajes):
 
 - Joffrey Baratheon (rey),
 - Jaime Lannister (luchador),
 - Daenerys Targaryen (luchadora),
-- Tyrion Lannister (asesor de Daenerys) y
-- Bronn (escudero de Jaime).)
-  i
-  ndex.js (aquí va todo el resto del enunciado, y éste será el punto de entrada)
+- Tyrion Lannister (asesor de Daenerys)
+- Bronn (escudero de Jaime).
+
+index.js (aquí va todo el resto del enunciado, y éste será el punto de entrada)
 
 ## Creación del interface:
 
